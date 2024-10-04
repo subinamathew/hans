@@ -53,7 +53,7 @@ Menus:
 
 params:
   title: "Hans Jacob"
-  description: Profile website
+  description: Music Teacher
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -108,7 +108,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hans Profile" # Brand name for the brand | default is the title variable
+    brandName: "Hans Jacob Injackel" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -142,14 +142,13 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jacob-injackel-john-228975157/
+        - icon: fab fa-instagram
           url: https://example.com
-        - icon: fab fa-x-twitter
+        - icon: fab fa-soundcloud
           url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
-
+          
   # About
   about:
     enable: true
@@ -168,7 +167,8 @@ params:
         - "Languages: English, Hindi, Tamil, Malayalam"
         - "Software: MS Office, Logic Pro, Final Cut Pro"
         - "Music: Singing, Piano, Guitar, basic percussion"
-        - "Other Skills: Event management, sound production, multimedia production, choir conducting, interpersonal skills"
+        - "Event management, Sound production"
+        - "Multimedia production, choir conducting, interpersonal skills"
 
 
   # Experience
@@ -176,34 +176,37 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Western Vocal and Piano Instructor"
+      - job: "Western Vocal and Piano Instructor (Offline and Online)"
         company: "Trinity School of Music, Bangalore"
         companyUrl: "http://trinityschoolofmusic.com/"
         date: "November 2022 - February 2024"
-        content: "Taught Western Vocals and Piano to students of various skill levels. Implemented a holistic music education approach, focusing on both theory and practical skills."
+        content: |
+          Taught Western Vocals and Piano to students of various skill levels. 
+          Implemented a holistic music education approach, focusing on both theory and practical skills."
 
-      - job: "Western Vocals Teacher"
-        company: "Kafqa Academy (Offline and Online)"
+      - job: "Western Vocals Teacher (Offline and Online)"
+        company: "Kafqa Academy"
         companyUrl: "https://www.facebook.com/Kafqa.Academy/"
         date: "January 2022 - February 2024"
         content: "Taught Western Vocals to students in both online and offline settings."
 
-      - job: "Music Educator (Western Vocals, Piano and Guitar)"
-        company: "Furtados School of Music (Offline)"
+      - job: "Music Educator (Western Vocals, Piano and Guitar - Online)"
+        company: "Furtados School of Music "
         date: "October 2022 - April 2023"  
         content: "Provided instruction in Western Vocals, Piano, and Guitar."
       
-      - job: "Western Vocal Educator"
-        company: "Lucy Learning, UAE (Online)"
+      - job: "Western Vocal Educator (Online)"
+        company: "Lucy Learning UAE"
         date: "November 2021 - December 2022"
-        content: "Delivered Western Vocal instruction through an online platform."  
-      - job: "Western Vocals Teacher"
-        company: "Greenwood High School, Bangalore (Online)"
+        content: "Delivered Western Vocal instruction through an online platform."
+
+      - job: "Western Vocals Teacher  (Online)"
+        company: "Greenwood High School Bangalore"
         date: "June 2021 - March 2022"
         content: "Taught Western Vocals to students in an online environment." 
 
-      - job: "Western Vocals Teacher (after school activity)"
-        company: "EKYA Schools, Bangalore"
+      - job: "Western Vocals Teacher (after school activity)  (Offline)"
+        company: "EKYA Schools Bangalore"
         date: "July 2020 - February 2021"
         content: "Led after-school sessions focused on Western Vocals."  
   # Education
@@ -318,9 +321,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
+      linkedin: https://www.linkedin.com/in/jacob-injackel-john-228975157/
       instagram: https://instagram.com
       facebook: https://facebook.com
 
